@@ -88,6 +88,9 @@ public class CategoryServiceImpl implements CategoryService{
         CategoryDto savedCategory = modelMapper.map(existingCategory,CategoryDto.class);
         return savedCategory;
     }
+    public static void add(){
+        System.out.println(10+10);
+    }
 
 
 
